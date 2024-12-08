@@ -1,0 +1,8 @@
+[35m[1mConsolidate compiler generated dependencies of target jtc_node[0m
+[35m[1mConsolidate compiler generated dependencies of target kuka_pick_and_place[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_drive[0m
+[35m[1mConsolidate compiler generated dependencies of target kuka_collision_avoidance_demo[0m
+[ 25%] Built target jtc_node
+[ 50%] Built target kuka_pick_and_place
+[ 75%] Built target moveit_drive
+[100%] Built target kuka_collision_avoidance_demo

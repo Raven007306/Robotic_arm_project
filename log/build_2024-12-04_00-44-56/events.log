@@ -1,0 +1,386 @@
+[0.000000] (-) TimerEvent: {}
+[0.000212] (kuka_arm_pkg) JobQueued: {'identifier': 'kuka_arm_pkg', 'dependencies': OrderedDict()}
+[0.000240] (kuka_arm_moveit) JobQueued: {'identifier': 'kuka_arm_moveit', 'dependencies': OrderedDict([('kuka_arm_pkg', '/home/raven/qwerty_ws/install/kuka_arm_pkg')])}
+[0.000415] (kuka_arm_pkg) JobStarted: {'identifier': 'kuka_arm_pkg'}
+[0.006480] (kuka_arm_pkg) JobProgress: {'identifier': 'kuka_arm_pkg', 'progress': 'cmake'}
+[0.006784] (kuka_arm_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/raven/qwerty_ws/src/kuka_arm_pkg', '-DCMAKE_INSTALL_PREFIX=/home/raven/qwerty_ws/install/kuka_arm_pkg'], 'cwd': '/home/raven/qwerty_ws/build/kuka_arm_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'raven'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/raven'), ('OLDPWD', '/home/raven'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3877'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/raven/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'raven'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'raven'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/raven-Dell-G15-5510:@/tmp/.ICE-unix/1624,unix/raven-Dell-G15-5510:/tmp/.ICE-unix/1624'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e0192543_4141_4fd0_a191_745984965ab1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DRZWX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.129'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/raven/robot_ws/install/kuka_moveit:/home/raven/robot_ws/install/kuka_arm_moveit:/home/raven/robot_ws/install/kuka_arm_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/raven/qwerty_ws/build/kuka_arm_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/raven/robot_ws/install/kuka_moveit:/home/raven/robot_ws/install/kuka_arm_moveit:/home/raven/robot_ws/install/kuka_arm_pkg:/opt/ros/humble')]), 'shell': False}
+[0.049601] (kuka_arm_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.090120] (kuka_arm_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.095414] (kuka_arm_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099846] (-) TimerEvent: {}
+[0.146856] (kuka_arm_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.152955] (kuka_arm_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.153134] (kuka_arm_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.153445] (kuka_arm_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.155805] (kuka_arm_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199939] (-) TimerEvent: {}
+[0.213741] (kuka_arm_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.220033] (kuka_arm_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.220241] (kuka_arm_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.220646] (kuka_arm_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.222576] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300016] (-) TimerEvent: {}
+[0.338230] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.400113] (-) TimerEvent: {}
+[0.407622] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.443541] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.447829] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.454610] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.464538] (kuka_arm_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.477865] (kuka_arm_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500206] (-) TimerEvent: {}
+[0.514197] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.516445] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.578904] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.600221] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.600339] (-) TimerEvent: {}
+[0.633932] (kuka_arm_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.641043] (kuka_arm_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.692078] (kuka_arm_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.692386] (kuka_arm_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.700457] (-) TimerEvent: {}
+[0.745257] (kuka_arm_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.746111] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.790287] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found trajectory_msgs: 4.2.4 (/opt/ros/humble/share/trajectory_msgs/cmake)\n'}
+[0.800555] (-) TimerEvent: {}
+[0.816885] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found moveit_visual_tools: 4.1.0 (/opt/ros/humble/share/moveit_visual_tools/cmake)\n'}
+[0.866510] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[0.877025] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[0.891190] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[0.900656] (-) TimerEvent: {}
+[0.911329] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[0.974570] (kuka_arm_pkg) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[1.000761] (-) TimerEvent: {}
+[1.031208] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.031369] (kuka_arm_pkg) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.100885] (-) TimerEvent: {}
+[1.201124] (-) TimerEvent: {}
+[1.232582] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[1.281354] (kuka_arm_pkg) StdoutLine: {'line': b"-- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'\n"}
+[1.286251] (kuka_arm_pkg) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[1.287245] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found OGRE\n'}
+[1.287413] (kuka_arm_pkg) StdoutLine: {'line': b'--   static     : OFF\n'}
+[1.287485] (kuka_arm_pkg) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[1.287564] (kuka_arm_pkg) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[1.287617] (kuka_arm_pkg) StdoutLine: {'line': b'--   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[1.287665] (kuka_arm_pkg) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[1.287828] (kuka_arm_pkg) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib\n'}
+[1.287905] (kuka_arm_pkg) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[1.287958] (kuka_arm_pkg) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[1.288005] (kuka_arm_pkg) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[1.288056] (kuka_arm_pkg) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[1.288100] (kuka_arm_pkg) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[1.288152] (kuka_arm_pkg) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[1.301216] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[1.301300] (-) TimerEvent: {}
+[1.304450] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[1.367730] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[1.367966] (kuka_arm_pkg) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[1.401435] (-) TimerEvent: {}
+[1.421168] (kuka_arm_pkg) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[1.421329] (kuka_arm_pkg) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[1.470966] (kuka_arm_pkg) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[1.471120] (kuka_arm_pkg) StdoutLine: {'line': b'-- Looking for connect\n'}
+[1.501564] (-) TimerEvent: {}
+[1.519601] (kuka_arm_pkg) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[1.519800] (kuka_arm_pkg) StdoutLine: {'line': b'-- Looking for remove\n'}
+[1.568934] (kuka_arm_pkg) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[1.569102] (kuka_arm_pkg) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[1.601673] (-) TimerEvent: {}
+[1.617690] (kuka_arm_pkg) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[1.617874] (kuka_arm_pkg) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[1.668309] (kuka_arm_pkg) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[1.701750] (-) TimerEvent: {}
+[1.749946] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)\n'}
+[1.754265] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[1.767747] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[1.787617] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[1.801847] (-) TimerEvent: {}
+[1.813469] (kuka_arm_pkg) StdoutLine: {'line': b'-- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)\n'}
+[1.887384] (kuka_arm_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.901926] (-) TimerEvent: {}
+[1.937089] (kuka_arm_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[1.939307] (kuka_arm_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/raven/qwerty_ws/build/kuka_arm_pkg\n'}
+[1.952001] (kuka_arm_pkg) CommandEnded: {'returncode': 0}
+[1.952465] (kuka_arm_pkg) JobProgress: {'identifier': 'kuka_arm_pkg', 'progress': 'build'}
+[1.953215] (kuka_arm_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/raven/qwerty_ws/build/kuka_arm_pkg', '--', '-j8', '-l8'], 'cwd': '/home/raven/qwerty_ws/build/kuka_arm_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'raven'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/raven'), ('OLDPWD', '/home/raven'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3877'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/raven/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'raven'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'raven'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/raven-Dell-G15-5510:@/tmp/.ICE-unix/1624,unix/raven-Dell-G15-5510:/tmp/.ICE-unix/1624'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e0192543_4141_4fd0_a191_745984965ab1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DRZWX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.129'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/raven/robot_ws/install/kuka_moveit:/home/raven/robot_ws/install/kuka_arm_moveit:/home/raven/robot_ws/install/kuka_arm_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/raven/qwerty_ws/build/kuka_arm_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/raven/robot_ws/install/kuka_moveit:/home/raven/robot_ws/install/kuka_arm_moveit:/home/raven/robot_ws/install/kuka_arm_pkg:/opt/ros/humble')]), 'shell': False}
+[1.994042] (kuka_arm_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/kuka_collision_avoidance_demo.dir/src/kuka_collision_avoidance_demo.cpp.o\x1b[0m\n'}
+[1.994234] (kuka_arm_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/kuka_pick_and_place.dir/src/kuka_pick_and_place.cpp.o\x1b[0m\n'}
+[1.995432] (kuka_arm_pkg) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/jtc_node.dir/src/joint_trajectory_controller.cpp.o\x1b[0m\n'}
+[1.995650] (kuka_arm_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/moveit_drive.dir/src/motion_drive_moveit.cpp.o\x1b[0m\n'}
+[2.002028] (-) TimerEvent: {}
+[2.102287] (-) TimerEvent: {}
+[2.202560] (-) TimerEvent: {}
+[2.302828] (-) TimerEvent: {}
+[2.403137] (-) TimerEvent: {}
+[2.503468] (-) TimerEvent: {}
+[2.603777] (-) TimerEvent: {}
+[2.704066] (-) TimerEvent: {}
+[2.804374] (-) TimerEvent: {}
+[2.904679] (-) TimerEvent: {}
+[3.004987] (-) TimerEvent: {}
+[3.105266] (-) TimerEvent: {}
+[3.205583] (-) TimerEvent: {}
+[3.305871] (-) TimerEvent: {}
+[3.406187] (-) TimerEvent: {}
+[3.506510] (-) TimerEvent: {}
+[3.606811] (-) TimerEvent: {}
+[3.707121] (-) TimerEvent: {}
+[3.807431] (-) TimerEvent: {}
+[3.907777] (-) TimerEvent: {}
+[4.008077] (-) TimerEvent: {}
+[4.108386] (-) TimerEvent: {}
+[4.208709] (-) TimerEvent: {}
+[4.309039] (-) TimerEvent: {}
+[4.409334] (-) TimerEvent: {}
+[4.509660] (-) TimerEvent: {}
+[4.609967] (-) TimerEvent: {}
+[4.710257] (-) TimerEvent: {}
+[4.810579] (-) TimerEvent: {}
+[4.910909] (-) TimerEvent: {}
+[5.011222] (-) TimerEvent: {}
+[5.111510] (-) TimerEvent: {}
+[5.211847] (-) TimerEvent: {}
+[5.312127] (-) TimerEvent: {}
+[5.412404] (-) TimerEvent: {}
+[5.512721] (-) TimerEvent: {}
+[5.613021] (-) TimerEvent: {}
+[5.713313] (-) TimerEvent: {}
+[5.813623] (-) TimerEvent: {}
+[5.913930] (-) TimerEvent: {}
+[5.937219] (kuka_arm_pkg) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable jtc_node\x1b[0m\n'}
+[6.014085] (-) TimerEvent: {}
+[6.114480] (-) TimerEvent: {}
+[6.119592] (kuka_arm_pkg) StdoutLine: {'line': b'[ 62%] Built target jtc_node\n'}
+[6.214585] (-) TimerEvent: {}
+[6.314895] (-) TimerEvent: {}
+[6.415191] (-) TimerEvent: {}
+[6.515473] (-) TimerEvent: {}
+[6.615807] (-) TimerEvent: {}
+[6.716108] (-) TimerEvent: {}
+[6.816397] (-) TimerEvent: {}
+[6.916694] (-) TimerEvent: {}
+[7.017000] (-) TimerEvent: {}
+[7.117314] (-) TimerEvent: {}
+[7.217602] (-) TimerEvent: {}
+[7.317893] (-) TimerEvent: {}
+[7.418198] (-) TimerEvent: {}
+[7.518477] (-) TimerEvent: {}
+[7.618771] (-) TimerEvent: {}
+[7.719060] (-) TimerEvent: {}
+[7.819356] (-) TimerEvent: {}
+[7.919683] (-) TimerEvent: {}
+[8.019991] (-) TimerEvent: {}
+[8.120304] (-) TimerEvent: {}
+[8.220594] (-) TimerEvent: {}
+[8.320876] (-) TimerEvent: {}
+[8.421177] (-) TimerEvent: {}
+[8.521455] (-) TimerEvent: {}
+[8.621771] (-) TimerEvent: {}
+[8.722079] (-) TimerEvent: {}
+[8.822367] (-) TimerEvent: {}
+[8.922647] (-) TimerEvent: {}
+[8.957422] (kuka_arm_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable kuka_pick_and_place\x1b[0m\n'}
+[8.962499] (kuka_arm_pkg) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable moveit_drive\x1b[0m\n'}
+[9.022754] (-) TimerEvent: {}
+[9.123047] (-) TimerEvent: {}
+[9.223326] (-) TimerEvent: {}
+[9.229757] (kuka_arm_pkg) StdoutLine: {'line': b'[ 87%] Built target kuka_pick_and_place\n'}
+[9.300416] (kuka_arm_pkg) StdoutLine: {'line': b'[ 87%] Built target moveit_drive\n'}
+[9.323423] (-) TimerEvent: {}
+[9.423697] (-) TimerEvent: {}
+[9.524004] (-) TimerEvent: {}
+[9.624283] (-) TimerEvent: {}
+[9.724579] (-) TimerEvent: {}
+[9.824855] (-) TimerEvent: {}
+[9.925149] (-) TimerEvent: {}
+[10.025455] (-) TimerEvent: {}
+[10.125764] (-) TimerEvent: {}
+[10.226050] (-) TimerEvent: {}
+[10.326336] (-) TimerEvent: {}
+[10.426686] (-) TimerEvent: {}
+[10.526964] (-) TimerEvent: {}
+[10.627237] (-) TimerEvent: {}
+[10.727550] (-) TimerEvent: {}
+[10.827842] (-) TimerEvent: {}
+[10.928115] (-) TimerEvent: {}
+[11.028407] (-) TimerEvent: {}
+[11.128717] (-) TimerEvent: {}
+[11.228977] (-) TimerEvent: {}
+[11.329257] (-) TimerEvent: {}
+[11.429545] (-) TimerEvent: {}
+[11.529846] (-) TimerEvent: {}
+[11.630100] (-) TimerEvent: {}
+[11.635355] (kuka_arm_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable kuka_collision_avoidance_demo\x1b[0m\n'}
+[11.730204] (-) TimerEvent: {}
+[11.830495] (-) TimerEvent: {}
+[11.930768] (-) TimerEvent: {}
+[12.031028] (-) TimerEvent: {}
+[12.131309] (-) TimerEvent: {}
+[12.179000] (kuka_arm_pkg) StdoutLine: {'line': b'[100%] Built target kuka_collision_avoidance_demo\n'}
+[12.191146] (kuka_arm_pkg) CommandEnded: {'returncode': 0}
+[12.216805] (kuka_arm_pkg) JobProgress: {'identifier': 'kuka_arm_pkg', 'progress': 'install'}
+[12.223356] (kuka_arm_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/raven/qwerty_ws/build/kuka_arm_pkg'], 'cwd': '/home/raven/qwerty_ws/build/kuka_arm_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'raven'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/raven'), ('OLDPWD', '/home/raven'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3877'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/raven/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'raven'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'raven'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/raven-Dell-G15-5510:@/tmp/.ICE-unix/1624,unix/raven-Dell-G15-5510:/tmp/.ICE-unix/1624'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e0192543_4141_4fd0_a191_745984965ab1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DRZWX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.129'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/raven/robot_ws/install/kuka_moveit:/home/raven/robot_ws/install/kuka_arm_moveit:/home/raven/robot_ws/install/kuka_arm_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/raven/qwerty_ws/build/kuka_arm_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/raven/robot_ws/install/kuka_moveit:/home/raven/robot_ws/install/kuka_arm_moveit:/home/raven/robot_ws/install/kuka_arm_pkg:/opt/ros/humble')]), 'shell': False}
+[12.229511] (kuka_arm_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.229731] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/lib/kuka_arm_pkg/jtc_node\n'}
+[12.230383] (kuka_arm_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/raven/qwerty_ws/install/kuka_arm_pkg/lib/kuka_arm_pkg/jtc_node" to ""\n'}
+[12.230475] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/lib/kuka_arm_pkg/moveit_drive\n'}
+[12.230838] (kuka_arm_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/raven/qwerty_ws/install/kuka_arm_pkg/lib/kuka_arm_pkg/moveit_drive" to ""\n'}
+[12.230917] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/lib/kuka_arm_pkg/kuka_collision_avoidance_demo\n'}
+[12.231358] (-) TimerEvent: {}
+[12.231461] (kuka_arm_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/raven/qwerty_ws/install/kuka_arm_pkg/lib/kuka_arm_pkg/kuka_collision_avoidance_demo" to ""\n'}
+[12.231616] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/lib/kuka_arm_pkg/kuka_pick_and_place\n'}
+[12.231957] (kuka_arm_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/raven/qwerty_ws/install/kuka_arm_pkg/lib/kuka_arm_pkg/kuka_pick_and_place" to ""\n'}
+[12.232024] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/src\n'}
+[12.232093] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/src/kuka_collision_avoidance_demo.cpp\n'}
+[12.232159] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/src/motion_drive_moveit.cpp\n'}
+[12.232235] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/src/original.cpp\n'}
+[12.232311] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/src/joint_trajectory_controller.cpp\n'}
+[12.232391] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/src/kuka_pick_and_place.cpp\n'}
+[12.232458] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/urdf\n'}
+[12.232530] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/urdf/kr210.urdf.xacro\n'}
+[12.232611] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/urdf/kr210_moveit.urdf.xacro\n'}
+[12.232673] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/urdf/kr210.ros2control.xacro\n'}
+[12.232752] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/urdf/target.urdf.xacro\n'}
+[12.232831] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/urdf/kr210.gazebo.xacro\n'}
+[12.232901] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes\n'}
+[12.232973] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/gripper\n'}
+[12.233048] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/gripper/finger_right.dae\n'}
+[12.233119] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/gripper/finger_left.dae\n'}
+[12.233206] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/gripper/gripper_base.dae\n'}
+[12.233293] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/gripper/finger_right_collision.dae\n'}
+[12.233381] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/gripper/finger_left_collision.dae\n'}
+[12.233456] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150\n'}
+[12.233531] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/README.md\n'}
+[12.233610] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual\n'}
+[12.233683] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/link_1.dae\n'}
+[12.234671] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/link_2.dae\n'}
+[12.237743] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/link_6.dae\n'}
+[12.238739] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/base_link.dae\n'}
+[12.239007] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/link_5.dae\n'}
+[12.240221] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/link_4.dae\n'}
+[12.240863] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/link_3.dae\n'}
+[12.242126] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision\n'}
+[12.242279] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/link_6.stl\n'}
+[12.242354] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/link_1.stl\n'}
+[12.242436] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/link_4.stl\n'}
+[12.242519] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/link_5.stl\n'}
+[12.242605] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/base_link.stl\n'}
+[12.242726] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/link_3.stl\n'}
+[12.242800] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/link_2.stl\n'}
+[12.242928] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/config\n'}
+[12.243006] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/config/kr210_controllers.yaml\n'}
+[12.243097] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/config/kuka_arm_controllers.yaml\n'}
+[12.243162] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/config/kuka_arm.rviz\n'}
+[12.243237] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/launch\n'}
+[12.243320] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/2_gazebo_kuka_arm.launch.py\n'}
+[12.243372] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/3_moveit_kuka_arm.launch.py\n'}
+[12.243444] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/5_cafe_world.launch.py\n'}
+[12.243531] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/1_rviz_kuka_arm.launch.py\n'}
+[12.243608] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/7_cafe_custom.launch.py\n'}
+[12.243657] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/4_moveit_node_controlling.launch.py\n'}
+[12.243737] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/8_gazebo_with_collision_avoidance.launch.py\n'}
+[12.243786] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/9_pick_and_place.launch.py\n'}
+[12.243857] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/6_moveit_node_controlling.launch.py\n'}
+[12.243939] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/models\n'}
+[12.243988] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_shelf\n'}
+[12.244060] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_shelf/model.sdf\n'}
+[12.244135] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_shelf/kinematics_shelf.dae\n'}
+[12.244209] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_shelf/model.config\n'}
+[12.244271] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_bin\n'}
+[12.244342] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_bin/model.sdf\n'}
+[12.244415] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_bin/kinematics_bin.dae\n'}
+[12.244491] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_bin/model.config\n'}
+[12.244578] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/worlds\n'}
+[12.244655] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/worlds/cafe_custom.world\n'}
+[12.244726] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/worlds/basic.world\n'}
+[12.244797] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/worlds/hello.world\n'}
+[12.244966] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/ament_index/resource_index/package_run_dependencies/kuka_arm_pkg\n'}
+[12.245094] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/ament_index/resource_index/parent_prefix_path/kuka_arm_pkg\n'}
+[12.245217] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/environment/ament_prefix_path.sh\n'}
+[12.245317] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/environment/ament_prefix_path.dsv\n'}
+[12.245421] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/environment/path.sh\n'}
+[12.245525] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/environment/path.dsv\n'}
+[12.245620] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/local_setup.bash\n'}
+[12.245716] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/local_setup.sh\n'}
+[12.245815] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/local_setup.zsh\n'}
+[12.245906] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/local_setup.dsv\n'}
+[12.245997] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/package.dsv\n'}
+[12.246118] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/ament_index/resource_index/packages/kuka_arm_pkg\n'}
+[12.246232] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/cmake/kuka_arm_pkgConfig.cmake\n'}
+[12.246308] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/cmake/kuka_arm_pkgConfig-version.cmake\n'}
+[12.246401] (kuka_arm_pkg) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/package.xml\n'}
+[12.247854] (kuka_arm_pkg) CommandEnded: {'returncode': 0}
+[12.283630] (kuka_arm_pkg) JobEnded: {'identifier': 'kuka_arm_pkg', 'rc': 0}
+[12.284327] (kuka_arm_moveit) JobStarted: {'identifier': 'kuka_arm_moveit'}
+[12.288722] (kuka_arm_moveit) JobProgress: {'identifier': 'kuka_arm_moveit', 'progress': 'cmake'}
+[12.288908] (kuka_arm_moveit) Command: {'cmd': ['/usr/bin/cmake', '/home/raven/qwerty_ws/src/kuka_arm_moveit', '-DCMAKE_INSTALL_PREFIX=/home/raven/qwerty_ws/install/kuka_arm_moveit'], 'cwd': '/home/raven/qwerty_ws/build/kuka_arm_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'raven'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/raven'), ('OLDPWD', '/home/raven'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3877'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/raven/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'raven'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'raven'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/raven-Dell-G15-5510:@/tmp/.ICE-unix/1624,unix/raven-Dell-G15-5510:/tmp/.ICE-unix/1624'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e0192543_4141_4fd0_a191_745984965ab1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DRZWX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.129'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/raven/qwerty_ws/install/kuka_arm_pkg:/home/raven/robot_ws/install/kuka_moveit:/home/raven/robot_ws/install/kuka_arm_moveit:/home/raven/robot_ws/install/kuka_arm_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/raven/qwerty_ws/build/kuka_arm_moveit'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/raven/qwerty_ws/install/kuka_arm_pkg:/home/raven/robot_ws/install/kuka_moveit:/home/raven/robot_ws/install/kuka_arm_moveit:/home/raven/robot_ws/install/kuka_arm_pkg:/opt/ros/humble')]), 'shell': False}
+[12.329586] (kuka_arm_moveit) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[12.331465] (-) TimerEvent: {}
+[12.373255] (kuka_arm_moveit) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[12.378570] (kuka_arm_moveit) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[12.426505] (kuka_arm_moveit) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[12.431578] (-) TimerEvent: {}
+[12.432641] (kuka_arm_moveit) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[12.432861] (kuka_arm_moveit) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[12.433139] (kuka_arm_moveit) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[12.435477] (kuka_arm_moveit) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[12.492614] (kuka_arm_moveit) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[12.499027] (kuka_arm_moveit) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[12.499266] (kuka_arm_moveit) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[12.499736] (kuka_arm_moveit) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[12.501787] (kuka_arm_moveit) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[12.531670] (-) TimerEvent: {}
+[12.617311] (kuka_arm_moveit) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[12.631747] (-) TimerEvent: {}
+[12.731937] (-) TimerEvent: {}
+[12.737886] (kuka_arm_moveit) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.739751] (kuka_arm_moveit) StdoutLine: {'line': b'-- Generating done\n'}
+[12.740413] (kuka_arm_moveit) StdoutLine: {'line': b'-- Build files have been written to: /home/raven/qwerty_ws/build/kuka_arm_moveit\n'}
+[12.743287] (kuka_arm_moveit) CommandEnded: {'returncode': 0}
+[12.743706] (kuka_arm_moveit) JobProgress: {'identifier': 'kuka_arm_moveit', 'progress': 'build'}
+[12.744282] (kuka_arm_moveit) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/raven/qwerty_ws/build/kuka_arm_moveit', '--', '-j8', '-l8'], 'cwd': '/home/raven/qwerty_ws/build/kuka_arm_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'raven'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/raven'), ('OLDPWD', '/home/raven'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3877'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/raven/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'raven'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'raven'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/raven-Dell-G15-5510:@/tmp/.ICE-unix/1624,unix/raven-Dell-G15-5510:/tmp/.ICE-unix/1624'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e0192543_4141_4fd0_a191_745984965ab1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DRZWX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.129'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/raven/qwerty_ws/install/kuka_arm_pkg:/home/raven/robot_ws/install/kuka_moveit:/home/raven/robot_ws/install/kuka_arm_moveit:/home/raven/robot_ws/install/kuka_arm_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/raven/qwerty_ws/build/kuka_arm_moveit'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/raven/qwerty_ws/install/kuka_arm_pkg:/home/raven/robot_ws/install/kuka_moveit:/home/raven/robot_ws/install/kuka_arm_moveit:/home/raven/robot_ws/install/kuka_arm_pkg:/opt/ros/humble')]), 'shell': False}
+[12.773154] (kuka_arm_moveit) CommandEnded: {'returncode': 0}
+[12.787438] (kuka_arm_moveit) JobProgress: {'identifier': 'kuka_arm_moveit', 'progress': 'install'}
+[12.787773] (kuka_arm_moveit) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/raven/qwerty_ws/build/kuka_arm_moveit'], 'cwd': '/home/raven/qwerty_ws/build/kuka_arm_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'raven'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/raven'), ('OLDPWD', '/home/raven'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3877'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/raven/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'raven'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'raven'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/raven-Dell-G15-5510:@/tmp/.ICE-unix/1624,unix/raven-Dell-G15-5510:/tmp/.ICE-unix/1624'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e0192543_4141_4fd0_a191_745984965ab1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DRZWX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.129'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/raven/qwerty_ws/install/kuka_arm_pkg:/home/raven/robot_ws/install/kuka_moveit:/home/raven/robot_ws/install/kuka_arm_moveit:/home/raven/robot_ws/install/kuka_arm_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/raven/qwerty_ws/build/kuka_arm_moveit'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/raven/qwerty_ws/install/kuka_arm_pkg:/home/raven/robot_ws/install/kuka_moveit:/home/raven/robot_ws/install/kuka_arm_moveit:/home/raven/robot_ws/install/kuka_arm_pkg:/opt/ros/humble')]), 'shell': False}
+[12.793681] (kuka_arm_moveit) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.793836] (kuka_arm_moveit) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_moveit/share/ament_index/resource_index/package_run_dependencies/kuka_arm_moveit\n'}
+[12.793966] (kuka_arm_moveit) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_moveit/share/ament_index/resource_index/parent_prefix_path/kuka_arm_moveit\n'}
+[12.794090] (kuka_arm_moveit) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_moveit/share/kuka_arm_moveit/environment/ament_prefix_path.sh\n'}
+[12.794176] (kuka_arm_moveit) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_moveit/share/kuka_arm_moveit/environment/ament_prefix_path.dsv\n'}
+[12.794262] (kuka_arm_moveit) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_moveit/share/kuka_arm_moveit/environment/path.sh\n'}
+[12.794340] (kuka_arm_moveit) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_moveit/share/kuka_arm_moveit/environment/path.dsv\n'}
+[12.794425] (kuka_arm_moveit) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_moveit/share/kuka_arm_moveit/local_setup.bash\n'}
+[12.794491] (kuka_arm_moveit) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_moveit/share/kuka_arm_moveit/local_setup.sh\n'}
+[12.794612] (kuka_arm_moveit) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_moveit/share/kuka_arm_moveit/local_setup.zsh\n'}
+[12.794674] (kuka_arm_moveit) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_moveit/share/kuka_arm_moveit/local_setup.dsv\n'}
+[12.794780] (kuka_arm_moveit) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_moveit/share/kuka_arm_moveit/package.dsv\n'}
+[12.794867] (kuka_arm_moveit) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_moveit/share/ament_index/resource_index/packages/kuka_arm_moveit\n'}
+[12.794972] (kuka_arm_moveit) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_moveit/share/kuka_arm_moveit/cmake/kuka_arm_moveitConfig.cmake\n'}
+[12.795038] (kuka_arm_moveit) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_moveit/share/kuka_arm_moveit/cmake/kuka_arm_moveitConfig-version.cmake\n'}
+[12.795103] (kuka_arm_moveit) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_moveit/share/kuka_arm_moveit/package.xml\n'}
+[12.795165] (kuka_arm_moveit) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_moveit/share/kuka_arm_moveit/launch\n'}
+[12.795227] (kuka_arm_moveit) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_moveit/share/kuka_arm_moveit/launch/demo.launch.py\n'}
+[12.795287] (kuka_arm_moveit) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_moveit/share/kuka_arm_moveit/launch/moveit_rviz.launch.py\n'}
+[12.795349] (kuka_arm_moveit) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_moveit/share/kuka_arm_moveit/launch/setup_assistant.launch.py\n'}
+[12.795412] (kuka_arm_moveit) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_moveit/share/kuka_arm_moveit/launch/rsp.launch.py\n'}
+[12.795473] (kuka_arm_moveit) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_moveit/share/kuka_arm_moveit/launch/move_group.launch.py\n'}
+[12.795541] (kuka_arm_moveit) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_moveit/share/kuka_arm_moveit/launch/spawn_controllers.launch.py\n'}
+[12.795610] (kuka_arm_moveit) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_moveit/share/kuka_arm_moveit/launch/warehouse_db.launch.py\n'}
+[12.795669] (kuka_arm_moveit) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_moveit/share/kuka_arm_moveit/launch/static_virtual_joint_tfs.launch.py\n'}
+[12.795735] (kuka_arm_moveit) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_moveit/share/kuka_arm_moveit/config\n'}
+[12.795800] (kuka_arm_moveit) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_moveit/share/kuka_arm_moveit/config/joint_limits.yaml\n'}
+[12.795865] (kuka_arm_moveit) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_moveit/share/kuka_arm_moveit/config/kr210_arm.urdf.xacro\n'}
+[12.795929] (kuka_arm_moveit) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_moveit/share/kuka_arm_moveit/config/kr210_arm.srdf\n'}
+[12.795994] (kuka_arm_moveit) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_moveit/share/kuka_arm_moveit/config/kr210_arm.ros2_control.xacro\n'}
+[12.796059] (kuka_arm_moveit) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_moveit/share/kuka_arm_moveit/config/kinematics.yaml\n'}
+[12.796126] (kuka_arm_moveit) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_moveit/share/kuka_arm_moveit/config/ros2_controllers.yaml\n'}
+[12.796197] (kuka_arm_moveit) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_moveit/share/kuka_arm_moveit/config/pilz_cartesian_limits.yaml\n'}
+[12.796245] (kuka_arm_moveit) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_moveit/share/kuka_arm_moveit/config/sensors_3d.yaml\n'}
+[12.796314] (kuka_arm_moveit) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_moveit/share/kuka_arm_moveit/config/moveit_controllers.yaml\n'}
+[12.796361] (kuka_arm_moveit) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_moveit/share/kuka_arm_moveit/config/initial_positions.yaml\n'}
+[12.796424] (kuka_arm_moveit) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_moveit/share/kuka_arm_moveit/config/moveit.rviz\n'}
+[12.796487] (kuka_arm_moveit) StdoutLine: {'line': b'-- Installing: /home/raven/qwerty_ws/install/kuka_arm_moveit/share/kuka_arm_moveit/.setup_assistant\n'}
+[12.797688] (kuka_arm_moveit) CommandEnded: {'returncode': 0}
+[12.820512] (kuka_arm_moveit) JobEnded: {'identifier': 'kuka_arm_moveit', 'rc': 0}
+[12.821070] (-) EventReactorShutdown: {}

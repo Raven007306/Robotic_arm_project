@@ -1,0 +1,16 @@
+[01m[K/home/raven/qwerty_ws/src/kuka_arm_pkg/src/kuka_pick_and_place.cpp:[m[K In member function ‘[01m[Kvoid KUKAPickAndPlace::performPickAndPlace()[m[K’:
+[01m[K/home/raven/qwerty_ws/src/kuka_arm_pkg/src/kuka_pick_and_place.cpp:96:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class moveit::planning_interface::MoveGroupInterface[m[K’ {aka ‘[01m[Kclass moveit::planning_interface::MoveGroupInterface[m[K’} has no member named ‘[01m[Kpick[m[K’
+   96 |         bool pick_success = move_group_->[01;31m[Kpick[m[K("box", grasp);
+      |                                          [01;31m[K^~~~[m[K
+[01m[K/home/raven/qwerty_ws/src/kuka_arm_pkg/src/kuka_pick_and_place.cpp:107:27:[m[K [01;31m[Kerror: [m[K‘[01m[KPlaceLocation[m[K’ is not a member of ‘[01m[Kmoveit_msgs::msg[m[K’
+  107 |         moveit_msgs::msg::[01;31m[KPlaceLocation[m[K place_location;
+      |                           [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/raven/qwerty_ws/src/kuka_arm_pkg/src/kuka_pick_and_place.cpp:108:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kplace_location[m[K’ was not declared in this scope
+  108 |         [01;31m[Kplace_location[m[K.place_pose.header.frame_id = move_group_->getPlanningFrame();
+      |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/raven/qwerty_ws/src/kuka_arm_pkg/src/kuka_pick_and_place.cpp:124:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class moveit::planning_interface::MoveGroupInterface[m[K’ {aka ‘[01m[Kclass moveit::planning_interface::MoveGroupInterface[m[K’} has no member named ‘[01m[Kplace[m[K’
+  124 |         bool place_success = move_group_->[01;31m[Kplace[m[K("box", place_location);
+      |                                           [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/kuka_pick_and_place.dir/build.make:76: CMakeFiles/kuka_pick_and_place.dir/src/kuka_pick_and_place.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/kuka_pick_and_place.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

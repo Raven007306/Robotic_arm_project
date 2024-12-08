@@ -1,0 +1,93 @@
+[0.009s] Invoking command in '/home/raven/qwerty_ws/build/kuka_arm_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/raven/qwerty_ws/build/kuka_arm_pkg -- -j8 -l8
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target kuka_pick_and_place[0m
+[0.055s] [ 25%] Built target jtc_node
+[0.062s] [ 50%] Built target moveit_drive
+[0.065s] [100%] Built target kuka_collision_avoidance_demo
+[0.065s] [100%] Built target kuka_pick_and_place
+[0.073s] Invoked command in '/home/raven/qwerty_ws/build/kuka_arm_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/raven/qwerty_ws/build/kuka_arm_pkg -- -j8 -l8
+[0.102s] Invoking command in '/home/raven/qwerty_ws/build/kuka_arm_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/raven/qwerty_ws/build/kuka_arm_pkg
+[0.107s] -- Install configuration: ""
+[0.107s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/lib/kuka_arm_pkg/jtc_node
+[0.108s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/lib/kuka_arm_pkg/moveit_drive
+[0.108s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/lib/kuka_arm_pkg/kuka_collision_avoidance_demo
+[0.108s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/lib/kuka_arm_pkg/kuka_pick_and_place
+[0.108s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/src
+[0.108s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/src/kuka_collision_avoidance_demo.cpp
+[0.108s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/src/motion_drive_moveit.cpp
+[0.108s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/src/original.cpp
+[0.108s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/src/joint_trajectory_controller.cpp
+[0.108s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/src/kuka_pick_and_place.cpp
+[0.108s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/urdf
+[0.108s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/urdf/kr210.urdf.xacro
+[0.109s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/urdf/kr210_moveit.urdf.xacro
+[0.109s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/urdf/kr210.ros2control.xacro
+[0.109s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/urdf/target.urdf.xacro
+[0.109s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/urdf/kr210.gazebo.xacro
+[0.109s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes
+[0.109s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/gripper
+[0.109s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/gripper/finger_right.dae
+[0.109s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/gripper/finger_left.dae
+[0.109s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/gripper/gripper_base.dae
+[0.109s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/gripper/finger_right_collision.dae
+[0.109s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/gripper/finger_left_collision.dae
+[0.109s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150
+[0.109s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/README.md
+[0.109s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual
+[0.109s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/link_1.dae
+[0.109s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/link_2.dae
+[0.109s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/link_6.dae
+[0.109s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/base_link.dae
+[0.109s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/link_5.dae
+[0.110s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/link_4.dae
+[0.110s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/link_3.dae
+[0.110s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision
+[0.110s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/link_6.stl
+[0.110s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/link_1.stl
+[0.110s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/link_4.stl
+[0.110s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/link_5.stl
+[0.110s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/base_link.stl
+[0.110s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/link_3.stl
+[0.110s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/link_2.stl
+[0.110s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/config
+[0.111s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/config/kr210_controllers.yaml
+[0.111s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/config/kuka_arm_controllers.yaml
+[0.111s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/config/kuka_arm.rviz
+[0.111s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/launch
+[0.111s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/2_gazebo_kuka_arm.launch.py
+[0.111s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/3_moveit_kuka_arm.launch.py
+[0.111s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/5_cafe_world.launch.py
+[0.111s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/1_rviz_kuka_arm.launch.py
+[0.111s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/7_cafe_custom.launch.py
+[0.111s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/4_moveit_node_controlling.launch.py
+[0.112s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/8_gazebo_with_collision_avoidance.launch.py
+[0.112s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/9_pick_and_place.launch.py
+[0.112s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/6_moveit_node_controlling.launch.py
+[0.112s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/models
+[0.112s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_shelf
+[0.112s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_shelf/model.sdf
+[0.112s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_shelf/kinematics_shelf.dae
+[0.112s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_shelf/model.config
+[0.112s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_bin
+[0.112s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_bin/model.sdf
+[0.112s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_bin/kinematics_bin.dae
+[0.112s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_bin/model.config
+[0.112s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/worlds
+[0.112s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/worlds/cafe_custom.world
+[0.112s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/worlds/basic.world
+[0.112s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/worlds/hello.world
+[0.112s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/ament_index/resource_index/package_run_dependencies/kuka_arm_pkg
+[0.113s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/ament_index/resource_index/parent_prefix_path/kuka_arm_pkg
+[0.113s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/environment/ament_prefix_path.sh
+[0.113s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/environment/ament_prefix_path.dsv
+[0.113s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/environment/path.sh
+[0.113s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/environment/path.dsv
+[0.113s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/local_setup.bash
+[0.113s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/local_setup.sh
+[0.113s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/local_setup.zsh
+[0.113s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/local_setup.dsv
+[0.113s] -- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/package.dsv
+[0.113s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/ament_index/resource_index/packages/kuka_arm_pkg
+[0.113s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/cmake/kuka_arm_pkgConfig.cmake
+[0.113s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/cmake/kuka_arm_pkgConfig-version.cmake
+[0.113s] -- Up-to-date: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/package.xml
+[0.113s] Invoked command in '/home/raven/qwerty_ws/build/kuka_arm_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/raven/qwerty_ws/build/kuka_arm_pkg

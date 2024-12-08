@@ -1,0 +1,22 @@
+[0.009s] Invoking command in '/home/raven/qwerty_ws/build/kuka_arm_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/raven/qwerty_ws/build/kuka_arm_pkg -- -j8 -l8
+[0.056s] [ 25%] Built target jtc_node
+[0.061s] [ 62%] Built target moveit_drive
+[0.061s] [ 62%] [32mBuilding CXX object CMakeFiles/kuka_pick_and_place.dir/src/kuka_pick_and_place.cpp.o[0m
+[0.064s] [ 87%] Built target kuka_collision_avoidance_demo
+[4.191s] [01m[K/home/raven/qwerty_ws/src/kuka_arm_pkg/src/kuka_pick_and_place.cpp:[m[K In member function ‘[01m[Kvoid KUKAPickAndPlace::performPickAndPlace()[m[K’:
+[4.191s] [01m[K/home/raven/qwerty_ws/src/kuka_arm_pkg/src/kuka_pick_and_place.cpp:96:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class moveit::planning_interface::MoveGroupInterface[m[K’ {aka ‘[01m[Kclass moveit::planning_interface::MoveGroupInterface[m[K’} has no member named ‘[01m[Kpick[m[K’
+[4.191s]    96 |         bool pick_success = move_group_->[01;31m[Kpick[m[K("box", grasp);
+[4.191s]       |                                          [01;31m[K^~~~[m[K
+[4.193s] [01m[K/home/raven/qwerty_ws/src/kuka_arm_pkg/src/kuka_pick_and_place.cpp:107:27:[m[K [01;31m[Kerror: [m[K‘[01m[KPlaceLocation[m[K’ is not a member of ‘[01m[Kmoveit_msgs::msg[m[K’
+[4.193s]   107 |         moveit_msgs::msg::[01;31m[KPlaceLocation[m[K place_location;
+[4.193s]       |                           [01;31m[K^~~~~~~~~~~~~[m[K
+[4.203s] [01m[K/home/raven/qwerty_ws/src/kuka_arm_pkg/src/kuka_pick_and_place.cpp:108:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kplace_location[m[K’ was not declared in this scope
+[4.203s]   108 |         [01;31m[Kplace_location[m[K.place_pose.header.frame_id = move_group_->getPlanningFrame();
+[4.204s]       |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.204s] [01m[K/home/raven/qwerty_ws/src/kuka_arm_pkg/src/kuka_pick_and_place.cpp:124:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class moveit::planning_interface::MoveGroupInterface[m[K’ {aka ‘[01m[Kclass moveit::planning_interface::MoveGroupInterface[m[K’} has no member named ‘[01m[Kplace[m[K’
+[4.204s]   124 |         bool place_success = move_group_->[01;31m[Kplace[m[K("box", place_location);
+[4.204s]       |                                           [01;31m[K^~~~~[m[K
+[6.293s] gmake[2]: *** [CMakeFiles/kuka_pick_and_place.dir/build.make:76: CMakeFiles/kuka_pick_and_place.dir/src/kuka_pick_and_place.cpp.o] Error 1
+[6.293s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/kuka_pick_and_place.dir/all] Error 2
+[6.293s] gmake: *** [Makefile:146: all] Error 2
+[6.295s] Invoked command in '/home/raven/qwerty_ws/build/kuka_arm_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/raven/qwerty_ws/build/kuka_arm_pkg -- -j8 -l8

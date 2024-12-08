@@ -1,0 +1,4 @@
+[ 25%] Built target jtc_node
+[ 62%] Built target moveit_drive
+[ 62%] [32mBuilding CXX object CMakeFiles/kuka_pick_and_place.dir/src/kuka_pick_and_place.cpp.o[0m
+[ 87%] Built target kuka_collision_avoidance_demo

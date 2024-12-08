@@ -1,0 +1,178 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found trajectory_msgs: 4.2.4 (/opt/ros/humble/share/trajectory_msgs/cmake)
+-- Found moveit_visual_tools: 4.1.0 (/opt/ros/humble/share/moveit_visual_tools/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+-- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+-- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+-- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+-- Found OGRE
+--   static     : OFF
+--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+--   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+-- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+-- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+-- Found X11: /usr/include   
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+-- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/raven/qwerty_ws/build/kuka_arm_pkg
+[ 25%] [32mBuilding CXX object CMakeFiles/kuka_collision_avoidance_demo.dir/src/kuka_collision_avoidance_demo.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/kuka_pick_and_place.dir/src/kuka_pick_and_place.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/jtc_node.dir/src/joint_trajectory_controller.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/moveit_drive.dir/src/motion_drive_moveit.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable jtc_node[0m
+[ 62%] Built target jtc_node
+[ 75%] [32m[1mLinking CXX executable kuka_pick_and_place[0m
+[ 87%] [32m[1mLinking CXX executable moveit_drive[0m
+[ 87%] Built target kuka_pick_and_place
+[ 87%] Built target moveit_drive
+[100%] [32m[1mLinking CXX executable kuka_collision_avoidance_demo[0m
+[100%] Built target kuka_collision_avoidance_demo
+-- Install configuration: ""
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/lib/kuka_arm_pkg/jtc_node
+-- Set runtime path of "/home/raven/qwerty_ws/install/kuka_arm_pkg/lib/kuka_arm_pkg/jtc_node" to ""
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/lib/kuka_arm_pkg/moveit_drive
+-- Set runtime path of "/home/raven/qwerty_ws/install/kuka_arm_pkg/lib/kuka_arm_pkg/moveit_drive" to ""
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/lib/kuka_arm_pkg/kuka_collision_avoidance_demo
+-- Set runtime path of "/home/raven/qwerty_ws/install/kuka_arm_pkg/lib/kuka_arm_pkg/kuka_collision_avoidance_demo" to ""
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/lib/kuka_arm_pkg/kuka_pick_and_place
+-- Set runtime path of "/home/raven/qwerty_ws/install/kuka_arm_pkg/lib/kuka_arm_pkg/kuka_pick_and_place" to ""
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/src
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/src/kuka_collision_avoidance_demo.cpp
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/src/motion_drive_moveit.cpp
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/src/original.cpp
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/src/joint_trajectory_controller.cpp
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/src/kuka_pick_and_place.cpp
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/urdf
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/urdf/kr210.urdf.xacro
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/urdf/kr210_moveit.urdf.xacro
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/urdf/kr210.ros2control.xacro
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/urdf/target.urdf.xacro
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/urdf/kr210.gazebo.xacro
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/gripper
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/gripper/finger_right.dae
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/gripper/finger_left.dae
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/gripper/gripper_base.dae
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/gripper/finger_right_collision.dae
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/gripper/finger_left_collision.dae
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/README.md
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/link_1.dae
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/link_2.dae
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/link_6.dae
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/base_link.dae
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/link_5.dae
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/link_4.dae
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/visual/link_3.dae
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/link_6.stl
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/link_1.stl
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/link_4.stl
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/link_5.stl
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/base_link.stl
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/link_3.stl
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/meshes/kr210l150/collision/link_2.stl
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/config
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/config/kr210_controllers.yaml
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/config/kuka_arm_controllers.yaml
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/config/kuka_arm.rviz
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/launch
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/2_gazebo_kuka_arm.launch.py
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/3_moveit_kuka_arm.launch.py
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/5_cafe_world.launch.py
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/1_rviz_kuka_arm.launch.py
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/7_cafe_custom.launch.py
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/4_moveit_node_controlling.launch.py
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/8_gazebo_with_collision_avoidance.launch.py
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/9_pick_and_place.launch.py
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/launch/6_moveit_node_controlling.launch.py
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/models
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_shelf
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_shelf/model.sdf
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_shelf/kinematics_shelf.dae
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_shelf/model.config
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_bin
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_bin/model.sdf
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_bin/kinematics_bin.dae
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/models/kinematics_bin/model.config
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/worlds
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/worlds/cafe_custom.world
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/worlds/basic.world
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/worlds/hello.world
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/ament_index/resource_index/package_run_dependencies/kuka_arm_pkg
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/ament_index/resource_index/parent_prefix_path/kuka_arm_pkg
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/environment/ament_prefix_path.dsv
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/environment/path.sh
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/environment/path.dsv
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/local_setup.bash
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/local_setup.sh
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/local_setup.zsh
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/local_setup.dsv
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/package.dsv
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/ament_index/resource_index/packages/kuka_arm_pkg
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/cmake/kuka_arm_pkgConfig.cmake
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/cmake/kuka_arm_pkgConfig-version.cmake
+-- Installing: /home/raven/qwerty_ws/install/kuka_arm_pkg/share/kuka_arm_pkg/package.xml

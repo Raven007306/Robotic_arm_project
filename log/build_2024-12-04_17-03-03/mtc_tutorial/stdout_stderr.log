@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target mtc_tutorial[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/mtc_tutorial.dir/src/mtc_tutorial.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/raven/qwerty_ws/src/mtc_tutorial/src/mtc_tutorial.cpp:1[m[K:
+[01m[K/home/raven/qwerty_ws/src/mtc_tutorial/src/mtc_tutorial.cpp:[m[K In member function ‘[01m[Kmoveit::task_constructor::Task MTCTaskNode::createTask()[m[K’:
+[01m[K/home/raven/qwerty_ws/src/mtc_tutorial/src/mtc_tutorial.cpp:120:30:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Karm_group_name[m[K’, which is of non-class type ‘[01m[Kconst char [9][m[K’
+  120 |               arm_group_name.[01;31m[Kc_str[m[K(), hand_group_name.c_str(), hand_frame.c_str());
+      |                              [01;31m[K^~~~~[m[K
+[01m[K/home/raven/qwerty_ws/src/mtc_tutorial/src/mtc_tutorial.cpp:120:55:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Khand_group_name[m[K’, which is of non-class type ‘[01m[Kconst char [13][m[K’
+  120 |               arm_group_name.c_str(), hand_group_name.[01;31m[Kc_str[m[K(), hand_frame.c_str());
+      |                                                       [01;31m[K^~~~~[m[K
+[01m[K/home/raven/qwerty_ws/src/mtc_tutorial/src/mtc_tutorial.cpp:120:75:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Khand_frame[m[K’, which is of non-class type ‘[01m[Kconst char [18][m[K’
+  120 |               arm_group_name.c_str(), hand_group_name.c_str(), hand_frame.[01;31m[Kc_str[m[K());
+      |                                                                           [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/mtc_tutorial.dir/build.make:76: CMakeFiles/mtc_tutorial.dir/src/mtc_tutorial.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mtc_tutorial.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

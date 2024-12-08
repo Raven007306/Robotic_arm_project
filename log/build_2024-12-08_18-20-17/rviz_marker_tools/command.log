@@ -1,0 +1,4 @@
+Invoking command in '/home/raven/qwerty_ws/build/rviz_marker_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/raven/qwerty_ws/build/rviz_marker_tools -- -j8 -l8
+Invoked command in '/home/raven/qwerty_ws/build/rviz_marker_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/raven/qwerty_ws/build/rviz_marker_tools -- -j8 -l8
+Invoking command in '/home/raven/qwerty_ws/build/rviz_marker_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/raven/qwerty_ws/build/rviz_marker_tools
+Invoked command in '/home/raven/qwerty_ws/build/rviz_marker_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/raven/qwerty_ws/build/rviz_marker_tools

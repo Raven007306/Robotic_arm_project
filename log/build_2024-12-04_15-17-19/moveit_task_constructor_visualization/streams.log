@@ -1,0 +1,76 @@
+[0.014s] Invoking command in '/home/raven/qwerty_ws/build/moveit_task_constructor_visualization': CMAKE_PREFIX_PATH=/home/raven/qwerty_ws/install/moveit_task_constructor_core:/home/raven/qwerty_ws/install/rviz_marker_tools:/opt/ros/humble:/home/raven/qwerty_ws/install/moveit_task_constructor_msgs:/home/raven/qwerty_ws/install/mtc_tutorial:/home/raven/qwerty_ws/install/moveit_task_constructor_visualization:/home/raven/qwerty_ws/install/moveit_task_constructor_demo:/home/raven/qwerty_ws/install/moveit_task_constructor_capabilities:/home/raven/qwerty_ws/install/kuka_arm_moveit:/home/raven/qwerty_ws/install/kuka_arm_pkg:/home/raven/robot_ws/install/kuka_moveit:/home/raven/robot_ws/install/kuka_arm_moveit:/home/raven/robot_ws/install/kuka_arm_pkg LD_LIBRARY_PATH=/home/raven/qwerty_ws/install/moveit_task_constructor_core/lib:/home/raven/qwerty_ws/install/rviz_marker_tools/lib:/home/raven/qwerty_ws/install/moveit_task_constructor_msgs/lib:/home/raven/qwerty_ws/install/moveit_task_constructor_visualization/lib:/home/raven/qwerty_ws/install/moveit_task_constructor_demo/lib:/home/raven/qwerty_ws/install/moveit_task_constructor_capabilities/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/raven/qwerty_ws/build/moveit_task_constructor_visualization -- -j8 -l8
+[0.063s] [  1%] [34m[1mAutomatic MOC for target motion_planning_tasks_utils[0m
+[0.063s] [  3%] [34m[1mAutomatic MOC for target gtest_main[0m
+[0.064s] [  7%] [34m[1mAutomatic MOC for target gtest[0m
+[0.065s] [  7%] [34m[1mAutomatic MOC for target motion_planning_tasks_properties[0m
+[0.065s] [  7%] [34m[1mAutomatic MOC for target gmock_main[0m
+[0.066s] [  9%] [34m[1mAutomatic MOC for target gmock[0m
+[0.067s] [ 10%] [34m[1mAutomatic MOC for target moveit_task_visualization_tools[0m
+[0.084s] [ 10%] Built target gtest_main_autogen
+[0.085s] [ 10%] Built target gmock_main_autogen
+[0.085s] [ 10%] Built target gtest_autogen
+[0.085s] [ 10%] Built target motion_planning_tasks_properties_autogen
+[0.086s] [ 10%] Built target motion_planning_tasks_utils_autogen
+[0.089s] [ 10%] Built target gmock_autogen
+[0.093s] [ 10%] Built target moveit_task_visualization_tools_autogen
+[0.112s] [ 15%] Built target gmock_main
+[0.114s] [ 20%] Built target gtest_main
+[0.115s] [ 24%] Built target gtest
+[0.116s] [ 32%] Built target motion_planning_tasks_utils
+[0.118s] [ 38%] Built target gmock
+[0.124s] [ 44%] Built target motion_planning_tasks_properties
+[0.135s] [ 46%] [34m[1mAutomatic MOC for target moveit_task_constructor_visualization-test-merge-models[0m
+[0.150s] [ 55%] Built target moveit_task_visualization_tools
+[0.152s] [ 55%] Built target moveit_task_constructor_visualization-test-merge-models_autogen
+[0.165s] [ 56%] [34m[1mAutomatic MOC for target motion_planning_tasks_rviz_plugin[0m
+[0.170s] [ 61%] Built target moveit_task_constructor_visualization-test-merge-models
+[0.185s] [ 61%] Built target motion_planning_tasks_rviz_plugin_autogen
+[0.247s] [ 87%] Built target motion_planning_tasks_rviz_plugin
+[0.262s] [ 90%] [34m[1mAutomatic MOC for target moveit_task_constructor_visualization-test-solution-models[0m
+[0.263s] [ 90%] [34m[1mAutomatic MOC for target moveit_task_constructor_visualization-test-task_model[0m
+[0.276s] [ 90%] Built target moveit_task_constructor_visualization-test-task_model_autogen
+[0.276s] [ 90%] Built target moveit_task_constructor_visualization-test-solution-models_autogen
+[0.300s] [ 95%] Built target moveit_task_constructor_visualization-test-task_model
+[0.324s] [100%] Built target moveit_task_constructor_visualization-test-solution-models
+[0.334s] Invoked command in '/home/raven/qwerty_ws/build/moveit_task_constructor_visualization' returned '0': CMAKE_PREFIX_PATH=/home/raven/qwerty_ws/install/moveit_task_constructor_core:/home/raven/qwerty_ws/install/rviz_marker_tools:/opt/ros/humble:/home/raven/qwerty_ws/install/moveit_task_constructor_msgs:/home/raven/qwerty_ws/install/mtc_tutorial:/home/raven/qwerty_ws/install/moveit_task_constructor_visualization:/home/raven/qwerty_ws/install/moveit_task_constructor_demo:/home/raven/qwerty_ws/install/moveit_task_constructor_capabilities:/home/raven/qwerty_ws/install/kuka_arm_moveit:/home/raven/qwerty_ws/install/kuka_arm_pkg:/home/raven/robot_ws/install/kuka_moveit:/home/raven/robot_ws/install/kuka_arm_moveit:/home/raven/robot_ws/install/kuka_arm_pkg LD_LIBRARY_PATH=/home/raven/qwerty_ws/install/moveit_task_constructor_core/lib:/home/raven/qwerty_ws/install/rviz_marker_tools/lib:/home/raven/qwerty_ws/install/moveit_task_constructor_msgs/lib:/home/raven/qwerty_ws/install/moveit_task_constructor_visualization/lib:/home/raven/qwerty_ws/install/moveit_task_constructor_demo/lib:/home/raven/qwerty_ws/install/moveit_task_constructor_capabilities/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/raven/qwerty_ws/build/moveit_task_constructor_visualization -- -j8 -l8
+[0.363s] Invoking command in '/home/raven/qwerty_ws/build/moveit_task_constructor_visualization': CMAKE_PREFIX_PATH=/home/raven/qwerty_ws/install/moveit_task_constructor_core:/home/raven/qwerty_ws/install/rviz_marker_tools:/opt/ros/humble:/home/raven/qwerty_ws/install/moveit_task_constructor_msgs:/home/raven/qwerty_ws/install/mtc_tutorial:/home/raven/qwerty_ws/install/moveit_task_constructor_visualization:/home/raven/qwerty_ws/install/moveit_task_constructor_demo:/home/raven/qwerty_ws/install/moveit_task_constructor_capabilities:/home/raven/qwerty_ws/install/kuka_arm_moveit:/home/raven/qwerty_ws/install/kuka_arm_pkg:/home/raven/robot_ws/install/kuka_moveit:/home/raven/robot_ws/install/kuka_arm_moveit:/home/raven/robot_ws/install/kuka_arm_pkg LD_LIBRARY_PATH=/home/raven/qwerty_ws/install/moveit_task_constructor_core/lib:/home/raven/qwerty_ws/install/rviz_marker_tools/lib:/home/raven/qwerty_ws/install/moveit_task_constructor_msgs/lib:/home/raven/qwerty_ws/install/moveit_task_constructor_visualization/lib:/home/raven/qwerty_ws/install/moveit_task_constructor_demo/lib:/home/raven/qwerty_ws/install/moveit_task_constructor_capabilities/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/raven/qwerty_ws/build/moveit_task_constructor_visualization
+[0.369s] -- Install configuration: "Release"
+[0.369s] -- Up-to-date: /home/raven/qwerty_ws/install/moveit_task_constructor_visualization/share/icons
+[0.369s] -- Up-to-date: /home/raven/qwerty_ws/install/moveit_task_constructor_visualization/share/icons/classes
+[0.369s] -- Up-to-date: /home/raven/qwerty_ws/install/moveit_task_constructor_visualization/share/icons/classes/Motion Planning Tasks.svg
+[0.369s] -- Up-to-date: /home/raven/qwerty_ws/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/motion_planning_tasks_rviz_plugin_description.xml
+[0.369s] -- Up-to-date: /home/raven/qwerty_ws/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/environment/library_path.sh
+[0.369s] -- Up-to-date: /home/raven/qwerty_ws/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/environment/library_path.dsv
+[0.369s] -- Up-to-date: /home/raven/qwerty_ws/install/moveit_task_constructor_visualization/share/ament_index/resource_index/package_run_dependencies/moveit_task_constructor_visualization
+[0.369s] -- Up-to-date: /home/raven/qwerty_ws/install/moveit_task_constructor_visualization/share/ament_index/resource_index/parent_prefix_path/moveit_task_constructor_visualization
+[0.369s] -- Up-to-date: /home/raven/qwerty_ws/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/environment/ament_prefix_path.sh
+[0.369s] -- Up-to-date: /home/raven/qwerty_ws/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/environment/ament_prefix_path.dsv
+[0.369s] -- Up-to-date: /home/raven/qwerty_ws/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/environment/path.sh
+[0.370s] -- Up-to-date: /home/raven/qwerty_ws/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/environment/path.dsv
+[0.370s] -- Up-to-date: /home/raven/qwerty_ws/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/local_setup.bash
+[0.370s] -- Up-to-date: /home/raven/qwerty_ws/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/local_setup.sh
+[0.370s] -- Up-to-date: /home/raven/qwerty_ws/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/local_setup.zsh
+[0.370s] -- Up-to-date: /home/raven/qwerty_ws/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/local_setup.dsv
+[0.370s] -- Installing: /home/raven/qwerty_ws/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/package.dsv
+[0.370s] -- Up-to-date: /home/raven/qwerty_ws/install/moveit_task_constructor_visualization/share/ament_index/resource_index/packages/moveit_task_constructor_visualization
+[0.370s] -- Up-to-date: /home/raven/qwerty_ws/install/moveit_task_constructor_visualization/share/ament_index/resource_index/rviz_common__pluginlib__plugin/moveit_task_constructor_visualization
+[0.370s] -- Up-to-date: /home/raven/qwerty_ws/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.370s] -- Up-to-date: /home/raven/qwerty_ws/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/cmake/ament_cmake_export_libraries-extras.cmake
+[0.370s] -- Up-to-date: /home/raven/qwerty_ws/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.370s] -- Up-to-date: /home/raven/qwerty_ws/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/cmake/moveit_task_constructor_visualizationConfig.cmake
+[0.370s] -- Up-to-date: /home/raven/qwerty_ws/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/cmake/moveit_task_constructor_visualizationConfig-version.cmake
+[0.370s] -- Up-to-date: /home/raven/qwerty_ws/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/package.xml
+[0.370s] -- Up-to-date: /home/raven/qwerty_ws/install/moveit_task_constructor_visualization/include
+[0.371s] -- Up-to-date: /home/raven/qwerty_ws/install/moveit_task_constructor_visualization/include/moveit
+[0.371s] -- Up-to-date: /home/raven/qwerty_ws/install/moveit_task_constructor_visualization/include/moveit/visualization_tools
+[0.371s] -- Up-to-date: /home/raven/qwerty_ws/install/moveit_task_constructor_visualization/include/moveit/visualization_tools/task_solution_visualization.h
+[0.371s] -- Up-to-date: /home/raven/qwerty_ws/install/moveit_task_constructor_visualization/include/moveit/visualization_tools/task_solution_panel.h
+[0.371s] -- Up-to-date: /home/raven/qwerty_ws/install/moveit_task_constructor_visualization/include/moveit/visualization_tools/marker_visualization.h
+[0.371s] -- Up-to-date: /home/raven/qwerty_ws/install/moveit_task_constructor_visualization/include/moveit/visualization_tools/display_solution.h
+[0.371s] -- Up-to-date: /home/raven/qwerty_ws/install/moveit_task_constructor_visualization/lib/libmoveit_task_visualization_tools.so.0.1.3
+[0.371s] -- Up-to-date: /home/raven/qwerty_ws/install/moveit_task_constructor_visualization/lib/libmoveit_task_visualization_tools.so
+[0.371s] -- Up-to-date: /home/raven/qwerty_ws/install/moveit_task_constructor_visualization/lib/libmotion_planning_tasks_utils.so
+[0.371s] -- Up-to-date: /home/raven/qwerty_ws/install/moveit_task_constructor_visualization/lib/libmotion_planning_tasks_properties.so
+[0.371s] -- Up-to-date: /home/raven/qwerty_ws/install/moveit_task_constructor_visualization/lib/libmotion_planning_tasks_rviz_plugin.so.0.1.3
+[0.371s] -- Up-to-date: /home/raven/qwerty_ws/install/moveit_task_constructor_visualization/lib/libmotion_planning_tasks_rviz_plugin.so
+[0.372s] Invoked command in '/home/raven/qwerty_ws/build/moveit_task_constructor_visualization' returned '0': CMAKE_PREFIX_PATH=/home/raven/qwerty_ws/install/moveit_task_constructor_core:/home/raven/qwerty_ws/install/rviz_marker_tools:/opt/ros/humble:/home/raven/qwerty_ws/install/moveit_task_constructor_msgs:/home/raven/qwerty_ws/install/mtc_tutorial:/home/raven/qwerty_ws/install/moveit_task_constructor_visualization:/home/raven/qwerty_ws/install/moveit_task_constructor_demo:/home/raven/qwerty_ws/install/moveit_task_constructor_capabilities:/home/raven/qwerty_ws/install/kuka_arm_moveit:/home/raven/qwerty_ws/install/kuka_arm_pkg:/home/raven/robot_ws/install/kuka_moveit:/home/raven/robot_ws/install/kuka_arm_moveit:/home/raven/robot_ws/install/kuka_arm_pkg LD_LIBRARY_PATH=/home/raven/qwerty_ws/install/moveit_task_constructor_core/lib:/home/raven/qwerty_ws/install/rviz_marker_tools/lib:/home/raven/qwerty_ws/install/moveit_task_constructor_msgs/lib:/home/raven/qwerty_ws/install/moveit_task_constructor_visualization/lib:/home/raven/qwerty_ws/install/moveit_task_constructor_demo/lib:/home/raven/qwerty_ws/install/moveit_task_constructor_capabilities/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/raven/qwerty_ws/build/moveit_task_constructor_visualization
